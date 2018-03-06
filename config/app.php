@@ -103,7 +103,8 @@ return [
     |
     */
 
-    'key' => ':DeqGzmEhLqYe3h0VT952xQaZ86/xKRF2l0SpFl/Acig=',
+    'key' => env('APP_KEY', 'DeqGzmEhLqYe3h0VT952xQaZ86/xKRF2l0SpFl/Acig='),
+    // 'key' => ':DeqGzmEhLqYe3h0VT952xQaZ86/xKRF2l0SpFl/Acig=',
 
     'cipher' => 'AES-256-CBC',
 
